@@ -1,4 +1,3 @@
-cat > Jenkinsfile <<'EOF'
 pipeline {
   agent any
   options { timestamps() }
@@ -11,4 +10,3 @@ pipeline {
     }
   }
 }
-EOF
